@@ -31,7 +31,11 @@ html {
 }
 
 body {
-  @apply bg-fog text-ink font-body antialiased;
+  background-color: var(--color-fog);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-feature-settings: "ss01" on;
   overflow-x: hidden;
 }
